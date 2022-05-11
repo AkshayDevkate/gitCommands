@@ -6,6 +6,7 @@ To commit local code to remote repository
  goto terminal/ command prompt > Navigate to project folder 
  
  First clone this reposity locally using following command 
+ 
  git clone https://github.com/AkshayDevkate/gitCommands.git
  
  git add .
