@@ -18,7 +18,7 @@ To commit local code to remote repository
  ![rejected] master -> master (fetch first)
  error: failed to push some refs to git@"
  
- # Some times some one would have committed to the repository before you if you would like to overthrow the commits use following command 
+ Some times some one would have committed to the repository before you if you would like to overthrow the commits use following command 
  
  git push origin maste --force 
  
