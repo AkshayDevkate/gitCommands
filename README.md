@@ -55,6 +55,7 @@ To commit local code to remote repository
  
  Teammates can push to your branch by doing commits and then push explicitly
  
+``` 
  ... work ...
 git commit
 ... work ...
@@ -70,3 +71,4 @@ git commit
 git commit
 git push
  
+```
