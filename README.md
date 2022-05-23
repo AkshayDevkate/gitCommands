@@ -58,6 +58,27 @@ To commit local code to remote repository
  
  After you create a branch locally, you can work locally in your branch. When you are ready to upload the code to new branch remote. The following command push the branch to remote repository origin and track it.
  
+ When you create a branch you can add using 
+ 
+ ```
+ git add .
+ git commit -m " Write some message"
+ git push
+ ```
+ 
+ After git push you might get an error like 
+ ```
+ fatal: The current branch branchOneTest has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin branchOneTest
+ ```
+ Than run 
+ 
+ ```
+     git push --set-upstream origin branchOneTest
+ ```
+ 
  ```
  git push -u origin <your_branch_name>
  ```
